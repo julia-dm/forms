@@ -73,11 +73,15 @@ textarea{
 .forms_p{
     display: flex;
     justify-content: space-between;
+
+}
+.forms_p p{
+    flex: 1;
 }
 .row{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 8px;
 }
 .row input{
     flex: 1;
@@ -85,4 +89,29 @@ textarea{
 p{
     color: #fff;
     margin-bottom: 5px;
+}
+button{
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    margin-top: 10git px;
+}
+
+button:hover{
+    background-color: #ff8f26;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+
+button:active{
+    transform: translateY(0);
+    box-shadow: 0 3px 4px rgba(0,0,0,0.2);
 }
